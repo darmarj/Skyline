@@ -1,7 +1,7 @@
 {
   "name": "craftzdog-homepage",
   "version": "1.0.0",
-  "description": "Takuya's website",
+  "description": "Daramrj's website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "keywords": [],
-  "author": "Takuya Matsuyama",
+  "author": "Daramrj",
   "license": "MIT",
   "dependencies": {
     "@chakra-ui/icons": "^1.1.1",
@@ -26,7 +26,20 @@
   },
   "devDependencies": {
     "eslint": "^7.32.0",
-    "eslint-config-next": "^12.0.4",
-    "prettier": "^2.4.1"
-  }
+    "eslint-config-next": "^12.0.8",
+    "prettier": "^2.5.1"
+  },
+  "main": "next.config.js",
+  "directories": {
+    "doc": "doc",
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darmarj"
+  },
+  "bugs": {
+    "url": "https://github.com/darmarj/craftzdog-homepage/issues"
+  },
+  "homepage": "https://github.com/darmarj/craftzdog-homepage#readme"
 }

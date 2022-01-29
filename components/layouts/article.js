@@ -5,7 +5,7 @@ import { GridItemStyle } from '../grid-item'
 const variants = {
   hidden: { opacity: 0, x: 0, y: 20 },
   enter: { opacity: 1, x: 0, y: 0 },
-  exit: { opacity: 0, x: -0, y: 20 }
+  exit: { opacity: 0, x: 0, y: 20 }
 }
 
 const Layout = ({ children, title }) => (
@@ -20,7 +20,7 @@ const Layout = ({ children, title }) => (
     <>
       {title && (
         <Head>
-          <title>{title} - Takuya Matsuyama</title>
+          <title>{title} - Darmarj</title>
           <meta name="twitter:title" content={title} />
           <meta property="og:title" content={title} />
         </Head>
